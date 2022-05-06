@@ -13,6 +13,32 @@
     }
   }
 
+  @media (min-width: 992px){
+    .h1-custom{
+      font-size: 3.5em;
+    }
+    .h2-custom{
+      font-size: 2.5em;
+    }
+    .p-custom{
+      font-size: 1.8em;
+    }
+  }
+
+  @media (min-width: 992px){
+    
+  }
+
+  @media (max-width: 767px){
+    .centro{
+      margin-top: 50px;
+      text-align: center;
+    }
+    .margin-custom{
+      margin-top: 50px;
+    }
+  }
+
   /* GLOBAL STYLES
   --------------------------------------------- */
   /* Padding below the footer and lighter body text */
@@ -21,7 +47,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
-    background-color: azure;
+    background-color: rgb(220, 255, 255);
   }
 
 
@@ -41,7 +67,7 @@
 
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 40rem;
   }
 
   .carousel-item>img {
@@ -49,7 +75,7 @@
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 32rem;
+    height: 40rem;
   }
 
 
@@ -99,9 +125,19 @@
       font-size: 1.25rem;
       line-height: 1.4;
     }
-
     .featurette-heading {
       font-size: 50px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .carousel-item {
+      height: 32rem;
+    }
+
+    .carousel-item>img {
+      min-width: 100%;
+      height: 32rem;
     }
   }
 
@@ -121,4 +157,21 @@ a{
 .TitleBold{
   font-size: 4.25em;
   color: black;
+}
+.custom-margin{
+  margin-top: 10%;
+}
+.card-custom{
+  transition: 0.24s;
+  animation: 1.04s;
+}
+.card-custom:hover{
+  transform: scale(1.04);
+}
+.logos{
+  transition: 0.24s;
+  animation: 1.1s;
+}
+.logos:hover{
+  transform: scale(1.15);
 }
